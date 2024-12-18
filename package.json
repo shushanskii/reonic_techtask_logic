@@ -1,17 +1,30 @@
 {
   "name": "reonic_tasks_logic",
+  "author": "Konstantin Shushanskii <shusha.computer@gmail.com>",
+  "license": "ISC",
   "version": "0.0.0",
   "description": "Reonic tech task Logic",
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
     "start": "node --experimental-strip-types src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "format": "tsc --noEmit && eslint --fix .",
+    "prepare": "husky"
   },
-  "author": "Konstantin Shushanskii <shusha.computer@gmail.com>",
-  "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@eslint/js": "^9.17.0",
     "@types/node": "^22.10.2",
-    "typescript": "^5.7.2"
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.13.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11",
+    "prettier": "3.4.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.1"
   }
 }

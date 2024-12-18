@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "moduleResolution": "node",
+    "module": "esNext",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "baseUrl": "./src/",
+    "outDir": "./dist/",
+    "noEmit": false,
+  },
+  "exclude": [
+    "./node_modules/*",
+    "**/*.test.ts",
+    "./dist/*",
+    "**/*.js",
+    "./dist/**/*",
+    "**/*.config.*"
+  ],
+}
