@@ -1,0 +1,17 @@
+{
+  "name": "reonic_tasks_logic",
+  "version": "0.0.0",
+  "description": "Reonic tech task Logic",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konstantin Shushanskii <shusha.computer@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
