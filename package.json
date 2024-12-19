@@ -26,5 +26,10 @@
     "prettier": "3.4.2",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.1"
+  },
+  "dependencies": {
+    "asciichart": "^1.5.25",
+    "chance": "^1.1.12",
+    "tablemark": "^3.1.0"
   }
 }
